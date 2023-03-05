@@ -1,0 +1,15 @@
+name: HearthStoneExample
+options:
+   bundleIdPrefix: com.lugaluStudy
+   preGenCommand: sh carthage.sh bootstrap --platform iOS --cache-builds
+targets:
+  HearthstoneExample:
+    dependencies:
+      - carthage: AlamoFire
+      - carthage: SwiftyJSON
+        linkType: static
+    type: application
+    platform: iOS
+    sources:
+      - HearthStoneExample
+
