@@ -90,4 +90,3 @@ fastlane/test_output
 iOSInjectionProject/
 *.xcodeproj/
 DerivedData/
-HearthStoneExample/API\ Keys.swift
